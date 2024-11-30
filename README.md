@@ -15,9 +15,8 @@ Node js Telegram Bots Using Library Telegraf
 </details>
 
 ## Installation
-
-Install my-project with npm
-
+```bash
+Install with npm
 git clone https://github.com/Fiisya/TelegramBot.git
 cd TelegramBot
 npm install
@@ -26,6 +25,7 @@ BOT_TOKEN=your_bot_token_here
 global.adminId = "Your_here"
 
 npm start
+```
 
 ## Thanks to
 Zeeone (Base)

@@ -21,14 +21,13 @@ Install my-project with npm
 git clone https://github.com/Fiisya/TelegramBot.git
 cd TelegramBot
 npm install
-
-# setting.js file
+setting.js file
 BOT_TOKEN=your_bot_token_here
 global.adminId = "Your_here"
 
 npm start
 
-Thanks to
+## Thanks to
 Zeeone (Base)
 Rafael
 Wannoffc

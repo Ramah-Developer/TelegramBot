@@ -621,6 +621,7 @@ SCRIPT BY FIIBOTZ`
             }
         )
     }
+}
   break 
   
 case 'listram': case 'ramlist':

@@ -607,7 +607,7 @@ SCRIPT BY FIIBOTZ`
 
 case 'yt': case 'youtube': case 'ytv': {
   if (!text) return reply(' [ Example ] :*\n> *.yt <link youtube>*')
-  reply('waiting in progress'...)
+  reply('waiting in progress...')
 try {
   reply('*Process of sending video, may take 1-3 minutes if the video duration is too long!*')
   let proces = await (await fetch(`https://btch.us.kg/download/ytdl?url=${text}`)).json()

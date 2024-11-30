@@ -28,7 +28,9 @@ npm start
 ```
 
 ## Thanks to
+```bash
 Zeeone (Base)
 Rafael
 Wannoffc
 AlfiXD
+```

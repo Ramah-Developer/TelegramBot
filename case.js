@@ -783,7 +783,7 @@ alfixd.replyWithPhoto(
         })
 }
 break
-case 'menu': case 'back!':
+case 'menu': case 'back!': case 'start':
 const totalMem = os.totalmem();
 const freeMem = os.freemem();
 const usedMem = totalMem - freeMem;

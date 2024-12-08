@@ -792,7 +792,7 @@ const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 const formattedTotalMem = formatSize(totalMem);
 let poke = 
-`Hi 👋 ${pushname} saya adalah assisten bot yang di buat oleh AlfiXD, Jika menemukan Error Silahkan Report ke owner
+`Hi 👋 ${pushname} I am a bot assistant created by RAMADHAN. If you find an error, please report it to the owner.
 
 ▧  Info Bot
 │ • BotName: ${BOT_NAME}

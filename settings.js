@@ -6,7 +6,7 @@
 */
 const fs = require("fs");
 
-global.BOT_TOKEN = "7437332589:AAGQCXC41R3QYRdRXvOG1naRQ2svz6xJ84s" // create a bot here https://t.me/Botfather and get bot tokens
+global.BOT_TOKEN = "7467334896:AAH6VI_zh3qimHpdptCno3Xe2vOUJx8XHmM" // create a bot here https://t.me/Botfather and get bot tokens
 global.BOT_NAME = "VERTEX-MD" //your bot name
 global.OWNER_NAME = "RMH" //your name
 global.OWNER_NUMBER = "256703025571" //your telegram number

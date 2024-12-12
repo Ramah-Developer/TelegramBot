@@ -598,7 +598,7 @@ if (!text) return reply('[!] link...!')
    Comment: ${anu.stats.commentCount}    Share: ${anu.stats.shareCount}
    Views: ${anu.stats.playCount}
    
-SCRIPT BY FIIBOTZ`
+SCRIPT BY RAMADHAN`
             }
         )
     }
@@ -615,7 +615,7 @@ case 'yt': case 'youtube': case 'ytv': {
                    }, {
                 caption: `[ YOUTUBE DOWNLOAD ]
                 *title* ${proces.result.title}
-SCRIPT BY FIIBOTZ`
+SCRIPT BY RAMADHAN`
             }
         )
     }
@@ -650,11 +650,11 @@ alfixd.replyWithPhoto(
 break            
 case 'nikparser': case 'dox':
 if (!isCreator) return reply("khusus alfixd")
-if (!q) return reply(`</> Anda harus mendapatkan nik target terlebih dahulu dan lakukan command seperti ini : ${prefix + command} 16070xxxxx\n\n`)
+if (!q) return reply(`</> You have to get the target nik first and do a command like this : ${prefix + command} 16070xxxxx\n\n`)
 const { nikParser } = require('nik-parser')
 const ktp = q
 const nik = nikParser(ktp)
-reply(`Nik: ${nik.isValid()}\nProvinsi ID: ${nik.provinceId()}\nNama Provinsi: ${nik.province()}\nKabupaten ID: ${nik.kabupatenKotaId()}\nNama Kabupaten: ${nik.kabupatenKota()}\nKecamatan ID: ${nik.kecamatanId()}\nNama Kecamatan: ${nik.kecamatan()}\nKode Pos: ${nik.kodepos()}\nJenis Kelamin: ${nik.kelamin()}\nTanggal Lahir: ${nik.lahir()}\nUniqcode: ${nik.uniqcode()}`)
+reply(`Nik: ${nik.isValid()}\nProvinsi ID: ${nik.provinceId()}\nName Province: ${nik.province()}\nRegency ID: ${nik.kabupatenKotaId()}\nName Regency: ${nik.kabupatenKota()}\nSubdistrict ID: ${nik.kecamatanId()}\nName Subdistrict: ${nik.kecamatan()}\nKode Pos: ${nik.kodepos()}\nGender: ${nik.kelamin()}\nDate of birth: ${nik.lahir()}\nUniqcode: ${nik.uniqcode()}`)
 break
 
 case "menudownload": {
@@ -810,7 +810,7 @@ let poke =
 │ • /menucpanel
 └───···
 
-Original Script || By Fiibotz`
+Original Script || By RAMADHAN`
 alfixd.replyWithPhoto(
         global.pp, {
             caption: poke,
